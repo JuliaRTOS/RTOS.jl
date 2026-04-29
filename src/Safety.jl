@@ -1,4 +1,4 @@
-mutable struct DeadlockGraph
+﻿mutable struct DeadlockGraph
     waits_for::Dict{String,String}
 end
 

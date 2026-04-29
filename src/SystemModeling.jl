@@ -1,4 +1,4 @@
-function integration_available(package::AbstractString)
+﻿function integration_available(package::AbstractString)
     return Base.find_package(String(package)) !== nothing
 end
 

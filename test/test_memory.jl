@@ -1,4 +1,4 @@
-@testset "Memory management" begin
+﻿@testset "Memory management" begin
     reset_kernel!()
     create_memory_pool("packets", 8, 2)
     @test_throws DuplicateResourceError create_memory_pool("packets", 8, 2)

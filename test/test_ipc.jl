@@ -1,4 +1,4 @@
-@testset "IPC queues" begin
+﻿@testset "IPC queues" begin
     reset_kernel!()
     q = create_queue("telemetry", 2)
     @test_throws DuplicateResourceError create_queue("telemetry", 1)

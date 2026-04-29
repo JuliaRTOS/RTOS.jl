@@ -1,4 +1,4 @@
-@testset "Safety" begin
+﻿@testset "Safety" begin
     reset_kernel!()
 
     graph = DeadlockGraph()

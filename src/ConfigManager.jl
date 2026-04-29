@@ -1,4 +1,4 @@
-function set_config!(key::Symbol, value)
+﻿function set_config!(key::Symbol, value)
     _KERNEL.config[key] = value
     record_event!(:config, String(key); metadata=Dict(:value => value))
     return value

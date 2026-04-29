@@ -1,4 +1,4 @@
-mutable struct PowerProfile
+﻿mutable struct PowerProfile
     name::String
     tick_ms::Int
     max_active_tasks::Int

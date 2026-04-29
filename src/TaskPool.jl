@@ -1,4 +1,4 @@
-mutable struct TaskPool
+﻿mutable struct TaskPool
     name::String
     members::Vector{String}
     max_concurrency::Int

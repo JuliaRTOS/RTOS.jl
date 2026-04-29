@@ -1,4 +1,4 @@
-mutable struct PeriodicJob
+﻿mutable struct PeriodicJob
     name::String
     task_name::String
     period_ms::Int

@@ -1,4 +1,4 @@
-const TASK_READY = :ready
+﻿const TASK_READY = :ready
 const TASK_RUNNING = :running
 const TASK_SUSPENDED = :suspended
 const TASK_STOPPED = :stopped

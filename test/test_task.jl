@@ -1,4 +1,4 @@
-@testset "Task lifecycle" begin
+﻿@testset "Task lifecycle" begin
     reset_kernel!()
 
     task = create_task("worker", () -> :ok, 5; autostart=false)

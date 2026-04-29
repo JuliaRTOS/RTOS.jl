@@ -1,4 +1,4 @@
-function optimize_system(objective::Function; package::AbstractString="Optimization",
+﻿function optimize_system(objective::Function; package::AbstractString="Optimization",
                          candidates=Any[], kwargs...)
     require_integration(package, "system optimization")
     best = nothing

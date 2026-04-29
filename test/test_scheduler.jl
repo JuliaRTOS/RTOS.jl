@@ -1,4 +1,4 @@
-@testset "Scheduler" begin
+﻿@testset "Scheduler" begin
     reset_kernel!()
     order = String[]
 

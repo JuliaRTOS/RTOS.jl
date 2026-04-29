@@ -1,4 +1,4 @@
-mutable struct DeviceDriver
+﻿mutable struct DeviceDriver
     name::String
     read::Union{Nothing,Function}
     write::Union{Nothing,Function}

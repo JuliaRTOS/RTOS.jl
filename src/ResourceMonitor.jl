@@ -1,4 +1,4 @@
-struct ResourceSnapshot
+﻿struct ResourceSnapshot
     time_ms::Int
     task_count::Int
     ready_count::Int

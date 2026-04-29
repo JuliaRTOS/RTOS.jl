@@ -1,4 +1,4 @@
-function event_counts()
+﻿function event_counts()
     counts = Dict{Symbol,Int}()
     for event in _KERNEL.events
         counts[event.category] = get(counts, event.category, 0) + 1

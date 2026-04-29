@@ -1,4 +1,4 @@
-@testset "Timers" begin
+﻿@testset "Timers" begin
     reset_kernel!()
     fired = Ref(0)
 

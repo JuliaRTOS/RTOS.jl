@@ -1,4 +1,4 @@
-function _ready_tasks()
+﻿function _ready_tasks()
     tasks = [task for task in values(_KERNEL.tasks)
              if task.state == TASK_READY && task.next_release_ms <= _KERNEL.clock_ms]
     sort!(tasks, by = task -> (-task.effective_priority,

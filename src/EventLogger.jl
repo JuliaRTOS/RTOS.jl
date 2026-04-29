@@ -1,4 +1,4 @@
-struct EventRecord
+﻿struct EventRecord
     time_ms::Int
     category::Symbol
     name::String

@@ -1,4 +1,4 @@
-mutable struct MLDecision
+﻿mutable struct MLDecision
     priorities::Dict{String,Int}
     power_profile::Union{Nothing,String}
     anomalies::Vector{String}

@@ -1,4 +1,4 @@
-struct LogRecord
+﻿struct LogRecord
     time_ms::Int
     level::Int
     level_name::Symbol

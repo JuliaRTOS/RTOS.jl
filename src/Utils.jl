@@ -1,4 +1,4 @@
-function _to_int(value, label::AbstractString)
+﻿function _to_int(value, label::AbstractString)
     try
         return Int(value)
     catch

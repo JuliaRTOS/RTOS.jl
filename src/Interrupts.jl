@@ -1,4 +1,4 @@
-mutable struct InterruptHandler
+﻿mutable struct InterruptHandler
     name::String
     priority::Int
     callback::Function

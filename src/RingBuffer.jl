@@ -1,4 +1,4 @@
-mutable struct RingBuffer{T}
+﻿mutable struct RingBuffer{T}
     data::Vector{Union{Nothing,T}}
     head::Int
     tail::Int

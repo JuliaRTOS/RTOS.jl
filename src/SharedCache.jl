@@ -1,4 +1,4 @@
-mutable struct SharedCache
+﻿mutable struct SharedCache
     name::String
     capacity::Int
     store::Dict{Any,Any}

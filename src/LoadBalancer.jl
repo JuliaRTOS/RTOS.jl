@@ -1,4 +1,4 @@
-function balance_ready_tasks(; limit::Integer=typemax(Int))
+﻿function balance_ready_tasks(; limit::Integer=typemax(Int))
     limit >= 0 || throw(CapacityError("limit must be non-negative"))
     ready = _ready_tasks()
     limit_i = min(Int(limit), length(ready))

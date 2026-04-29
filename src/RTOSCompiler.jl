@@ -1,4 +1,4 @@
-import StaticCompiler
+﻿import StaticCompiler
 
 static_compile_available() = true
 

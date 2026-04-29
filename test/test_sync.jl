@@ -1,4 +1,4 @@
-@testset "Synchronization" begin
+﻿@testset "Synchronization" begin
     reset_kernel!()
     create_task("low", () -> nothing, 1)
     create_task("high", () -> nothing, 9)

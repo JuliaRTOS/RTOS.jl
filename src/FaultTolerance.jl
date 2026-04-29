@@ -1,4 +1,4 @@
-mutable struct FaultPolicy
+﻿mutable struct FaultPolicy
     name::String
     max_restarts::Int
     restart_counts::Dict{String,Int}

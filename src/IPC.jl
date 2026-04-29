@@ -1,4 +1,4 @@
-mutable struct MessageQueue
+﻿mutable struct MessageQueue
     name::String
     capacity::Int
     buffer::Vector{Any}
