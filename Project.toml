@@ -4,7 +4,7 @@ authors = ["bparbhu <brian.parbhu@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
 [deps]
-StaticCompiler = "816d1b1b-3e39-5c2f-b5c6-423b6f0799c1"
+StaticCompiler = "81625895-6c0f-48fc-b932-11a18313743c"
 
 [compat]
 StaticCompiler = "0, 1"
