@@ -31,7 +31,7 @@ end
     set_task_contract!("fast"; period_ms=10, deadline_ms=5, wcet_ms=2)
     set_task_contract!("slow"; period_ms=10, deadline_ms=3, wcet_ms=4)
     report = schedulability_report()
-    @test report.utilization == 0.6
+    @test isapprox(report.utilization, 0.6)
     @test !report.schedulable
     @test "slow WCET exceeds deadline" in report.problems
 end
