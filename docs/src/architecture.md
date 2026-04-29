@@ -67,5 +67,5 @@ packages such as MLJ, ModelingToolkit, Optimization, and ControlSystems when
 those packages are available in the active environment.
 
 Only `StaticCompiler.jl` is a hard dependency. The ML/SciML ecosystem moves
-faster than Julia 1.0 compatibility, so these integrations are deliberately
+faster than the kernel core, so these integrations are deliberately
 optional boundaries.

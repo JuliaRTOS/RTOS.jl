@@ -106,9 +106,9 @@ RTOS.jl separates the system into three layers:
   active environment.
 
 Only `StaticCompiler.jl` is a hard external dependency. The broader ML/SciML
-ecosystem evolves faster than Julia 1.0 compatibility, so those integrations are
+ecosystem evolves faster than the kernel core, so those integrations are
 implemented as explicit adapter boundaries instead of mandatory dependencies.
-That keeps the RTOS core buildable across the widest Julia 1.x range while still
+That keeps the RTOS core buildable on supported Julia releases while still
 providing clean hooks for adaptive scheduling, anomaly detection, modeling, and
 optimization.
 
@@ -195,9 +195,9 @@ still follow StaticCompiler's constraints: prefer concrete primitive argument an
 return types, avoid heap allocation, and keep the compiled boundary small.
 
 RTOS.jl intentionally keeps broad compatibility: the package declares support
-for Julia `1.x` starting at Julia 1.0 and accepts StaticCompiler `0.x` and `1.x`
-releases. CI is configured to test every Julia minor release from 1.0 through
-the current stable line, plus prerelease/nightly Julia.
+for Julia `1.10` and newer and accepts StaticCompiler `0.x` and `1.x`
+releases. CI is configured to test Julia 1.10 and newer stable releases, plus
+the Julia prerelease channel as an allowed-failure signal.
 
 ```julia
 using RTOS

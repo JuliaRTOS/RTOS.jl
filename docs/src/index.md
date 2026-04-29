@@ -18,7 +18,7 @@ board-specific startup code belong behind the port/BSP layer.
 
 ## Compatibility
 
-RTOS.jl targets Julia `1.x` starting at Julia 1.0. `StaticCompiler.jl` is a hard
+RTOS.jl targets Julia `1.10` and newer. `StaticCompiler.jl` is a hard
 dependency, and the package accepts StaticCompiler `0.x` and `1.x` releases.
 
 ## Quick Start
