@@ -13,5 +13,12 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
+        "Architecture" => "architecture.md",
+        "FreeRTOS Parity" => "freertos-parity.md",
+        "Platform Layer" => "platform.md",
+        "System Services" => "system-services.md",
+        "Static Compilation" => "static-compilation.md",
+        "Examples" => "examples.md",
+        "API Reference" => "api.md",
     ],
 )
